@@ -56,6 +56,12 @@ public class Main
 		System.out.println("Bob cash on hand $" + bob.getCash());
 		System.out.println("Quantity of pretzel is " + pretzel.getQuantity());
 
+		System.out.println(chips);
+		System.out.println(chocolate);
+		System.out.println(pretzel);
+		System.out.println(soda);
+		System.out.println(water);
+
 
 	}
 
