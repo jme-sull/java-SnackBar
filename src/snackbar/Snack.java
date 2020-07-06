@@ -75,7 +75,7 @@ public class Snack
 	 @Override
     public String toString()
     {
-        return "Name: " + name + " Quantity: " + quantity + " Total Cost $" + quantity * cost;
+        return "Name: " + name + " Quantity: " + quantity + " Total Cost $" + String.format("%.2f", (quantity * cost));
     }
 
 }
