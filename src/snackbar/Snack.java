@@ -72,4 +72,10 @@ public class Snack
 		return total;
 	}
 
+	 @Override
+    public String toString()
+    {
+        return "Name: " + name + " Quantity: " + quantity + " Total Cost $" + quantity * cost;
+    }
+
 }
